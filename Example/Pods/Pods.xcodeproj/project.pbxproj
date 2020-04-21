@@ -7,38 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DF40149C9C170296443BBB34CF048543 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FBD6952536E6F0C6A8CE28A8E12BFBF /* TZQAppTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 1951EF5EA8C4A537A2815A3E409A758A /* TZQAppTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D59BC39CA99CE37273AEFA8550FF4C3C /* UIApplication+StrictKeyWindow.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = FB688FE992AA5055C26CFA9B982684D1 /* UIImage+Diff.m */; };
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FBD6952536E6F0C6A8CE28A8E12BFBF /* TZQAppTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7A8F00D6AFE69B8FFFB1372B8418F7 /* TZQAppTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0F2E147DD67FB3C93648304B8631C6 /* UIImage+Compare.m */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		399F34C32B60A31CB1040FBFA67C4F7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 516E795B2FDB614D74DAC0498E24C964 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4DB394419970298047499D3CD8AA90A4 /* SSFXTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 370DF0C62EC69A66726C50E0F267E8C4 /* SSFXTool-dummy.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4DB394419970298047499D3CD8AA90A4 /* SSFXTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C34AE31E042F68FF34179CCB42B1260B /* SSFXTool-dummy.m */; };
 		5A113FADB6A584A6350959846A9F5443 /* Pods-SSFXTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A259E4AB27F4E1AC1975EFE2D277D31 /* Pods-SSFXTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63FC399FA6F7D1AD2C5B3B9BDC76CF71 /* Pods-SSFXTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FB45C9717EB3B5188C9BB37E9D0FC0 /* Pods-SSFXTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66B2013886D579CAB13C297C5A5268B5 /* SSFXTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D45A0D48F4E434C48209140336C5D4A /* SSFXTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66B2013886D579CAB13C297C5A5268B5 /* SSFXTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1811DCD00EA4AB1F6AA82E05D189D9DC /* SSFXTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F97FA043A35CBD737478F00CB9B37341 /* FBSnapshotTestCase-dummy.m */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		79A7A1F9C684E48F8122AC4C0135F9F1 /* Pods-SSFXTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6626C9F67459E6638C13BC8E3A2398CB /* Pods-SSFXTool_Tests-dummy.m */; };
 		7BF81B03985E378B4F3C3225530C71D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		839AB4E2C849B29DDE862549D01CB7B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7934EF853B47F1DDFC7304B2EC94BE5 /* FBSnapshotTestController.m */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8A9623E1A3616E1BA3911F3FDBFFB973 /* Pods-SSFXTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A4751152765BF8E16E93DDD698BFEB /* Pods-SSFXTool_Example-dummy.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E29E9B8FB1668DC02C65AD87A645C9 /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = B211DEFDBA600B1A626631FE943A8C3A /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C185BBE60BD697CC3149EFC0746703 /* SwiftSupport.swift */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C66F54B5B2A317BCE8ED8C24D7ECB3 /* UIImage+Snapshot.m */; };
-		B0C429639271A3D49C3798580119E441 /* TZQAppTime.m in Sources */ = {isa = PBXBuildFile; fileRef = E2681F00F2DE41DF24822B7C3CB93020 /* TZQAppTime.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		B0C429639271A3D49C3798580119E441 /* TZQAppTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C902A6D11EEA86347DB2BF87208F31C9 /* TZQAppTime.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 391E12102E6B30EF027762C34070A9EE /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 578EC6BB36C04DCCBD66FAF472997D34 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B37E7382360F90B83E117D7217559 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = CC71A0F4DB741704233BE336A9EC9421 /* FBSnapshotTestCasePlatform.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA6A736A4F2592AB40CFD44A91A458C /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 124BA5960AAFEB464F96EE5661A909A1 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,64 +66,67 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02BD14C841409A7082D06B973A4873D3 /* SSFXTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSFXTool-Info.plist"; sourceTree = "<group>"; };
 		03A4751152765BF8E16E93DDD698BFEB /* Pods-SSFXTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSFXTool_Example-dummy.m"; sourceTree = "<group>"; };
 		058AEECD40E05D6E519210552FC9EBC9 /* Pods-SSFXTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSFXTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		124BA5960AAFEB464F96EE5661A909A1 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		13000BD3A04AAC29ED6EA13310F9B25A /* Pods-SSFXTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSFXTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1951EF5EA8C4A537A2815A3E409A758A /* TZQAppTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZQAppTime.h; path = SSFXTool/Classes/TZQAppTime.h; sourceTree = "<group>"; };
-		2717BE35DB474B2E543A3C89B8992C22 /* SSFXTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSFXTool.debug.xcconfig; sourceTree = "<group>"; };
+		1811DCD00EA4AB1F6AA82E05D189D9DC /* SSFXTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSFXTool-umbrella.h"; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		2940D7865897C7846CB43F356A958701 /* Pods-SSFXTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSFXTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		370DF0C62EC69A66726C50E0F267E8C4 /* SSFXTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSFXTool-dummy.m"; sourceTree = "<group>"; };
-		391E12102E6B30EF027762C34070A9EE /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		3D45A0D48F4E434C48209140336C5D4A /* SSFXTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSFXTool-umbrella.h"; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		40206D96291C7425BEE6D519D3E223C2 /* Pods_SSFXTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SSFXTool_Example.framework; path = "Pods-SSFXTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40C66F54B5B2A317BCE8ED8C24D7ECB3 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		493B37E7382360F90B83E117D7217559 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		4A259E4AB27F4E1AC1975EFE2D277D31 /* Pods-SSFXTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSFXTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4A9487213EDD783F829D59094D96D22F /* Pods-SSFXTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSFXTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4D2E05D1578B2E36B900B9E87B52A96F /* SSFXTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSFXTool-Info.plist"; sourceTree = "<group>"; };
-		516E795B2FDB614D74DAC0498E24C964 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		56746207A6332B88C96314751F3F9A96 /* Pods-SSFXTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSFXTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		56A5279C989FEE7107C8BDD2ECA6C4F4 /* Pods-SSFXTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSFXTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		56DACE0A53013B8EFBC4B2115299223C /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		578EC6BB36C04DCCBD66FAF472997D34 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5EB34F91FA55DFFDF6323A54AB7B8529 /* Pods-SSFXTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSFXTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6626C9F67459E6638C13BC8E3A2398CB /* Pods-SSFXTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSFXTool_Tests-dummy.m"; sourceTree = "<group>"; };
-		6D03717BEFC3FFC2693DC1B7AB6EDEAD /* SSFXTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSFXTool.modulemap; sourceTree = "<group>"; };
+		69701DCBD0CD0C305C25001FF61BD3CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		775A3E08A100959D5E372528254FA570 /* Pods-SSFXTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSFXTool_Example-Info.plist"; sourceTree = "<group>"; };
+		7974AC9528377CB1BC3311CFE3F679A3 /* SSFXTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SSFXTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D7A8F00D6AFE69B8FFFB1372B8418F7 /* TZQAppTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZQAppTime.h; path = SSFXTool/Classes/TZQAppTime.h; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		8283A187BF581377A6F07EBDFEDCADB0 /* SSFXTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSFXTool.debug.xcconfig; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		899F8CFA5DBEF0F7B5B1B7156FBF949D /* Pods-SSFXTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSFXTool_Example.modulemap"; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A72344A65D7256C6D66A7593D64AD79A /* Pods-SSFXTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSFXTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		AFC3FE053AF7584D06CC08A03C3506B6 /* Pods-SSFXTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSFXTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B211DEFDBA600B1A626631FE943A8C3A /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B66A0D9CF8670C2825C040B8184738CE /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		B7934EF853B47F1DDFC7304B2EC94BE5 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		B8E29E9B8FB1668DC02C65AD87A645C9 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		BF0F2E147DD67FB3C93648304B8631C6 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		C3389862A1384CE07D7627806ADFD7BB /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		CC71A0F4DB741704233BE336A9EC9421 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		C34AE31E042F68FF34179CCB42B1260B /* SSFXTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSFXTool-dummy.m"; sourceTree = "<group>"; };
+		C902A6D11EEA86347DB2BF87208F31C9 /* TZQAppTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZQAppTime.m; path = SSFXTool/Classes/TZQAppTime.m; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CD42C2A23AC961C7FA62A8BCE622127D /* SSFXTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSFXTool.framework; path = SSFXTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D0FB45C9717EB3B5188C9BB37E9D0FC0 /* Pods-SSFXTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSFXTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		D59BC39CA99CE37273AEFA8550FF4C3C /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		DA681C3B04975B9267DF69D0CB08B4ED /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		D28FB7FBBA1389E50A13545F4AFA9AEF /* SSFXTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSFXTool.release.xcconfig; sourceTree = "<group>"; };
+		D6CA3FCE763FF2BB1C8927A7916E1C4C /* SSFXTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSFXTool-prefix.pch"; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		DDDE9CC21654AE4BF580E75F7129BD43 /* Pods-SSFXTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSFXTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DF40149C9C170296443BBB34CF048543 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E23AA7AFE131CA3C0B498A7A47AFDCA3 /* Pods-SSFXTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSFXTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E2681F00F2DE41DF24822B7C3CB93020 /* TZQAppTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZQAppTime.m; path = SSFXTool/Classes/TZQAppTime.m; sourceTree = "<group>"; };
 		E5A82BD52204F57FC9780AC17E66A4E1 /* Pods_SSFXTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SSFXTool_Tests.framework; path = "Pods-SSFXTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E915E0B1F1AA662D6CB3D87C5F6EEE18 /* SSFXTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSFXTool-prefix.pch"; sourceTree = "<group>"; };
 		E963A37A04DA879669CAA57A220D72D5 /* Pods-SSFXTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSFXTool_Tests.modulemap"; sourceTree = "<group>"; };
-		EC761E93DC73B9746C75F9642C8E3C9C /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		F7C185BBE60BD697CC3149EFC0746703 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		F97FA043A35CBD737478F00CB9B37341 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		FB688FE992AA5055C26CFA9B982684D1 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		FBA6A736A4F2592AB40CFD44A91A458C /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		FD6DB47CD8066E0ADE8114E05F23A795 /* SSFXTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSFXTool.release.xcconfig; sourceTree = "<group>"; };
+		FB7498EB99DBE5130DB73740742CA05B /* SSFXTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSFXTool.modulemap; sourceTree = "<group>"; };
+		FE1DA410A3450E045317A687BA90DF33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,30 +168,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3239123BF21F401F64D6233F75C981E9 /* Support Files */ = {
+		05154CF9412D7E3EE71FB8DD60FE240D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC761E93DC73B9746C75F9642C8E3C9C /* FBSnapshotTestCase.modulemap */,
-				F97FA043A35CBD737478F00CB9B37341 /* FBSnapshotTestCase-dummy.m */,
-				C3389862A1384CE07D7627806ADFD7BB /* FBSnapshotTestCase-Info.plist */,
-				56DACE0A53013B8EFBC4B2115299223C /* FBSnapshotTestCase-prefix.pch */,
-				124BA5960AAFEB464F96EE5661A909A1 /* FBSnapshotTestCase-umbrella.h */,
-				B66A0D9CF8670C2825C040B8184738CE /* FBSnapshotTestCase.debug.xcconfig */,
-				DA681C3B04975B9267DF69D0CB08B4ED /* FBSnapshotTestCase.release.xcconfig */,
+				FB7498EB99DBE5130DB73740742CA05B /* SSFXTool.modulemap */,
+				C34AE31E042F68FF34179CCB42B1260B /* SSFXTool-dummy.m */,
+				02BD14C841409A7082D06B973A4873D3 /* SSFXTool-Info.plist */,
+				D6CA3FCE763FF2BB1C8927A7916E1C4C /* SSFXTool-prefix.pch */,
+				1811DCD00EA4AB1F6AA82E05D189D9DC /* SSFXTool-umbrella.h */,
+				8283A187BF581377A6F07EBDFEDCADB0 /* SSFXTool.debug.xcconfig */,
+				D28FB7FBBA1389E50A13545F4AFA9AEF /* SSFXTool.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			path = "Example/Pods/Target Support Files/SSFXTool";
 			sourceTree = "<group>";
 		};
-		640A46904E1D09A669F4CC867482B07B /* SSFXTool */ = {
+		0EFB61B81B25220CDA591855EF7A98C5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1951EF5EA8C4A537A2815A3E409A758A /* TZQAppTime.h */,
-				E2681F00F2DE41DF24822B7C3CB93020 /* TZQAppTime.m */,
-				BDE9C5F854F890208BA051B5EC41BC27 /* Support Files */,
+				48638306D239299750AA24C49C8D4D98 /* SSFXTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		48638306D239299750AA24C49C8D4D98 /* SSFXTool */ = {
+			isa = PBXGroup;
+			children = (
+				7D7A8F00D6AFE69B8FFFB1372B8418F7 /* TZQAppTime.h */,
+				C902A6D11EEA86347DB2BF87208F31C9 /* TZQAppTime.m */,
+				E2AB00FF6AA59B465248D4305848ED5B /* Pod */,
+				05154CF9412D7E3EE71FB8DD60FE240D /* Support Files */,
 			);
 			name = SSFXTool;
-			path = SSFXTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
@@ -202,13 +235,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8E44C4814ED2AC07AFC5EE5E94159693 /* Pods */ = {
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				D04605832669A160C2FEBF135586F55B /* FBSnapshotTestCase */,
-				640A46904E1D09A669F4CC867482B07B /* SSFXTool */,
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
-			name = Pods;
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 		9873036FA7AEA0ABEAA391D41B809DD0 /* Products */ = {
@@ -231,6 +263,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,19 +286,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BDE9C5F854F890208BA051B5EC41BC27 /* Support Files */ = {
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				6D03717BEFC3FFC2693DC1B7AB6EDEAD /* SSFXTool.modulemap */,
-				370DF0C62EC69A66726C50E0F267E8C4 /* SSFXTool-dummy.m */,
-				4D2E05D1578B2E36B900B9E87B52A96F /* SSFXTool-Info.plist */,
-				E915E0B1F1AA662D6CB3D87C5F6EEE18 /* SSFXTool-prefix.pch */,
-				3D45A0D48F4E434C48209140336C5D4A /* SSFXTool-umbrella.h */,
-				2717BE35DB474B2E543A3C89B8992C22 /* SSFXTool.debug.xcconfig */,
-				FD6DB47CD8066E0ADE8114E05F23A795 /* SSFXTool.release.xcconfig */,
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SSFXTool";
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
 		C18E3D2FFE9CB730FC7BEA01936AC6AD /* Pods-SSFXTool_Tests */ = {
@@ -292,51 +335,30 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0EFB61B81B25220CDA591855EF7A98C5 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				8E44C4814ED2AC07AFC5EE5E94159693 /* Pods */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				9873036FA7AEA0ABEAA391D41B809DD0 /* Products */,
 				B316328562D0BA72948A1DFB656560A5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D04605832669A160C2FEBF135586F55B /* FBSnapshotTestCase */ = {
+		E2AB00FF6AA59B465248D4305848ED5B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D25D6CA066B116AFCDFB56C4953AD1C5 /* Core */,
-				3239123BF21F401F64D6233F75C981E9 /* Support Files */,
-				FAC048AFA19750E60E9014535CB90706 /* SwiftSupport */,
+				69701DCBD0CD0C305C25001FF61BD3CD /* LICENSE */,
+				FE1DA410A3450E045317A687BA90DF33 /* README.md */,
+				7974AC9528377CB1BC3311CFE3F679A3 /* SSFXTool.podspec */,
 			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		D25D6CA066B116AFCDFB56C4953AD1C5 /* Core */ = {
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DF40149C9C170296443BBB34CF048543 /* FBSnapshotTestCase.h */,
-				B8E29E9B8FB1668DC02C65AD87A645C9 /* FBSnapshotTestCase.m */,
-				578EC6BB36C04DCCBD66FAF472997D34 /* FBSnapshotTestCasePlatform.h */,
-				CC71A0F4DB741704233BE336A9EC9421 /* FBSnapshotTestCasePlatform.m */,
-				B211DEFDBA600B1A626631FE943A8C3A /* FBSnapshotTestController.h */,
-				B7934EF853B47F1DDFC7304B2EC94BE5 /* FBSnapshotTestController.m */,
-				516E795B2FDB614D74DAC0498E24C964 /* UIApplication+StrictKeyWindow.h */,
-				D59BC39CA99CE37273AEFA8550FF4C3C /* UIApplication+StrictKeyWindow.m */,
-				FBA6A736A4F2592AB40CFD44A91A458C /* UIImage+Compare.h */,
-				BF0F2E147DD67FB3C93648304B8631C6 /* UIImage+Compare.m */,
-				493B37E7382360F90B83E117D7217559 /* UIImage+Diff.h */,
-				FB688FE992AA5055C26CFA9B982684D1 /* UIImage+Diff.m */,
-				391E12102E6B30EF027762C34070A9EE /* UIImage+Snapshot.h */,
-				40C66F54B5B2A317BCE8ED8C24D7ECB3 /* UIImage+Snapshot.m */,
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
 			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		FAC048AFA19750E60E9014535CB90706 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				F7C185BBE60BD697CC3149EFC0746703 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -623,7 +645,7 @@
 		};
 		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B66A0D9CF8670C2825C040B8184738CE /* FBSnapshotTestCase.debug.xcconfig */;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -748,7 +770,7 @@
 		};
 		7EA84D171E4C570E36BDF1C46B65EB20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2717BE35DB474B2E543A3C89B8992C22 /* SSFXTool.debug.xcconfig */;
+			baseConfigurationReference = 8283A187BF581377A6F07EBDFEDCADB0 /* SSFXTool.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -843,7 +865,7 @@
 		};
 		8795F082C66B3C9231BCB57222244D88 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD6DB47CD8066E0ADE8114E05F23A795 /* SSFXTool.release.xcconfig */;
+			baseConfigurationReference = D28FB7FBBA1389E50A13545F4AFA9AEF /* SSFXTool.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -908,7 +930,7 @@
 		};
 		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA681C3B04975B9267DF69D0CB08B4ED /* FBSnapshotTestCase.release.xcconfig */;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

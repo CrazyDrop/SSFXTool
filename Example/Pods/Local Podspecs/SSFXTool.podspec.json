@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "项目基础功能pod包",
   "description": "TODO: 用于业务开发的项目功能pod包、进行具体任务开发",
-  "homepage": "https://github.com/CrazyDrop",
+  "homepage": "https://github.com/CrazyDrop/SSFXTool",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "erik": "wo160.160@163.com"
   },
   "source": {
-    "git": "https://github.com/CrazyDrop/TZQTool.git",
+    "git": "https://github.com/CrazyDrop/SSFXTool.git",
     "tag": "0.1.0"
   },
   "platforms": {
