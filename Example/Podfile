@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SSFXTool_Example' do
+#  pod 'SSFXTool', :path => '../'
+  pod 'SSFXTool', :podspec => '../SSFXTool.podspec'  # 指定podspec文件
+  target 'SSFXTool_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
