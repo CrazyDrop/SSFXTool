@@ -9,5 +9,7 @@
 #import "TZQAppTime.h"
 
 @implementation TZQAppTime
-
++ (void)showAppLog{
+    NSLog(@"%s appLog",__func__);
+}
 @end

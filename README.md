@@ -16,13 +16,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 SSFXTool is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+项目公开库、用于整合较小的三方库，或分类扩展
+
+
 ```ruby
 pod 'SSFXTool'
 ```
 
 ## Author
 
-wo160.160@163.com, wo160.160@163.com
+erik, wo160.160@163.com
 
 ## License
 
