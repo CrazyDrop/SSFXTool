@@ -28,7 +28,7 @@ TODO: 用于业务开发的项目功能pod包、进行具体任务开发
   s.source           = { :git => 'https://github.com/CrazyDrop/SSFXTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'SSFXTool/Classes/**/*'
   
