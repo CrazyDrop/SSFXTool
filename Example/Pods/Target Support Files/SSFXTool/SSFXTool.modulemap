@@ -1,6 +1,0 @@
-framework module SSFXTool {
-  umbrella header "SSFXTool-umbrella.h"
-
-  export *
-  module * { export * }
-}
