@@ -1,6 +1,49 @@
- 当前pod版本列表 
+ 当前pod版本列表   Preparing
 
--> Using FBSnapshotTestCase (2.1.4)
+Analyzing dependencies
 
--> Using SSFXTool (0.1.1)
-  -  
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-SSFXTool_Example`: (``)
+  Using `ARCHS` setting to build architectures of target `Pods-SSFXTool_Tests`: (``)
+
+Finding Podfile changes
+  - FBSnapshotTestCase
+  - SSFXTool
+
+Resolving dependencies of `Podfile`
+  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only perfomed in repo update
+  CDN: trunk Relative path: all_pods_versions_5_0_9.txt exists! Returning local because checking is only perfomed in repo update
+  CDN: trunk Relative path: Specs/5/0/9/FBSnapshotTestCase/2.1.4/FBSnapshotTestCase.podspec.json exists! Returning local because checking is only perfomed in repo update
+[!] CocoaPods could not find compatible versions for pod "SSFXTool":
+  In snapshot (Podfile.lock):
+    SSFXTool (from `../SSFXTool.podspec`)
+
+  In Podfile:
+    SSFXTool (from `../SSFXTool.podspec`)
+
+It seems like you've changed the version of the dependency `SSFXTool` and it differs from the version stored in `Pods/Local Podspecs`.
+You should run `pod update SSFXTool --no-repo-update` to apply changes made locally.
+
+/Library/Ruby/Gems/2.6.0/gems/molinillo-0.6.6/lib/molinillo/resolution.rb:328:in `raise_error_unless_state'
+/Library/Ruby/Gems/2.6.0/gems/molinillo-0.6.6/lib/molinillo/resolution.rb:310:in `block in unwind_for_conflict'
+/Library/Ruby/Gems/2.6.0/gems/molinillo-0.6.6/lib/molinillo/resolution.rb:308:in `tap'
+/Library/Ruby/Gems/2.6.0/gems/molinillo-0.6.6/lib/molinillo/resolution.rb:308:in `unwind_for_conflict'
+/Library/Ruby/Gems/2.6.0/gems/molinillo-0.6.6/lib/molinillo/resolution.rb:257:in `process_topmost_state'
+/Library/Ruby/Gems/2.6.0/gems/molinillo-0.6.6/lib/molinillo/resolution.rb:182:in `resolve'
+/Library/Ruby/Gems/2.6.0/gems/molinillo-0.6.6/lib/molinillo/resolver.rb:43:in `resolve'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/lib/cocoapods/resolver.rb:94:in `resolve'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/lib/cocoapods/installer/analyzer.rb:1065:in `block in resolve_dependencies'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/lib/cocoapods/user_interface.rb:64:in `section'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/lib/cocoapods/installer/analyzer.rb:1063:in `resolve_dependencies'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/lib/cocoapods/installer/analyzer.rb:124:in `analyze'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/lib/cocoapods/installer.rb:410:in `analyze'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/lib/cocoapods/installer.rb:235:in `block in resolve_dependencies'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/lib/cocoapods/user_interface.rb:64:in `section'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/lib/cocoapods/installer.rb:234:in `resolve_dependencies'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/lib/cocoapods/installer.rb:156:in `install!'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/lib/cocoapods/command/install.rb:52:in `run'
+/Library/Ruby/Gems/2.6.0/gems/claide-1.0.3/lib/claide/command.rb:334:in `run'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/lib/cocoapods/command.rb:52:in `run'
+/Library/Ruby/Gems/2.6.0/gems/cocoapods-1.9.1/bin/pod:55:in `<top (required)>'
+/usr/local/bin/pod:23:in `load'
+/usr/local/bin/pod:23:in `<main>' 

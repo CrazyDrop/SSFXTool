@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SSFXTool'
-  s.version          = '0.1.1'
+  s.version          = '0.2.2'
   s.summary          = '项目基础功能pod包'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: 用于业务开发的项目功能pod包、进行具体任务开发
   s.homepage         = 'https://github.com/CrazyDrop/SSFXTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'erik' => 'wo160.1.1@163.com' }
+  s.author           = { 'erik' => 'wo160.160@163.com' }
   s.source           = { :git => 'https://github.com/CrazyDrop/SSFXTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
