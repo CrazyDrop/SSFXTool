@@ -1,0 +1,6 @@
+ 当前pod版本列表 
+
+-> Using FBSnapshotTestCase (2.1.4)
+
+-> Using SSFXTool (0.1.1)
+  -  

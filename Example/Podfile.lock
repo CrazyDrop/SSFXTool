@@ -4,11 +4,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SSFXTool (0.1.0)
+  - SSFXTool (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - SSFXTool (from `../`)
+  - SSFXTool (from `../SSFXTool.podspec`)
 
 SPEC REPOS:
   trunk:
@@ -16,12 +16,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   SSFXTool:
-    :path: "../"
+    :podspec: "../SSFXTool.podspec"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SSFXTool: 222a130a8161b68ec960bc871785f8d3d77ef41a
+  SSFXTool: de59bf2f7fdee79e6a50e9d6ddd3556fc2312521
 
-PODFILE CHECKSUM: 2b70fe3902c51f6cc90efd258b0957d9e8219606
+PODFILE CHECKSUM: 9ad3323937d69a71f42b0446a6376caf78ce2681
 
 COCOAPODS: 1.9.1

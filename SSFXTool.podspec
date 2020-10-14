@@ -24,7 +24,7 @@ TODO: 用于业务开发的项目功能pod包、进行具体任务开发
   s.homepage         = 'https://github.com/CrazyDrop/SSFXTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'erik' => 'wo160.160@163.com' }
+  s.author           = { 'erik' => 'wo160.1.1@163.com' }
   s.source           = { :git => 'https://github.com/CrazyDrop/SSFXTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
