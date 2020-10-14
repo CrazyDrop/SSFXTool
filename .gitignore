@@ -38,6 +38,7 @@ DerivedData/
 #
 Pods/
 Podfile.lock
+pod_list.txt
 
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
